@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.kaku_nyaan.project.MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="253dp"
+        android:text="@string/hello_world"
+        android:textColor="#ffff"
+        android:textSize="70px" />
+
+    <Button
+        android:id="@+id/bShow"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/bExit"
+        android:layout_below="@+id/bConn"
+        android:layout_marginTop="28dp"
+        android:text="Load Data"
+        android:textColor="#ffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bShow"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_marginRight="60dp"
+        android:text="EXIT"
+        android:textColor="#ffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bConn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bShow"
+        android:layout_alignTop="@+id/textView1"
+        android:layout_marginTop="131dp"
+        android:text="Connect"
+        android:textColor="#ffff"
+        android:textStyle="bold" />
+
+</RelativeLayout>
